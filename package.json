@@ -1,0 +1,14 @@
+{
+  "name": "cardmarket-api",
+  "version": "1.0.0",
+  "description": "Javascript client to use Cardmarket API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.88.0"
+  }
+}
