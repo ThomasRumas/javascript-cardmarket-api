@@ -1,7 +1,7 @@
 # javascript-cardmarket-api
 A little API to consume cardmarket API
 
-##How to use it
+## How to use it
 ```
 import CardmarketApi from 'index.js'; 
 
