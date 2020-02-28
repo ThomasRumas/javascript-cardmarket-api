@@ -4,11 +4,14 @@
   "description": "Javascript client to use Cardmarket API",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "request": "^2.88.0"
+    "@types/node": "^13.7.6",
+    "request": "^2.88.0",
+    "typescript": "^3.8.2"
   }
 }

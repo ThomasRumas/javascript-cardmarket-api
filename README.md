@@ -8,6 +8,6 @@ import CardmarketApi from 'index.js';
 let api = new CardmarketApi(APP_TOKEN, APP_SECRET, ACCESS_TOKEN, ACCESS_SECRET);
 
 api.getGames().then(response => {
-    console.log(response); 
+    console.log(JSON.parse(response)); 
 })
 ```
